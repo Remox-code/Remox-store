@@ -1,0 +1,452 @@
+
+body{
+  background-color:#ffefc8;
+   font-family: "Vazirmatn", sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#header {
+  background-color: #8D0B41;
+  color: #D6CFB4;
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Vazirmatn", sans-serif;
+  font-size:40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 500px;
+  height:20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+   display: flex;
+  align-items: center;  /* وسط‌چین عمودی */
+  justify-content: center;  /* وسط‌چین افقی */
+  font-family: "Vazirmatn", sans-serif;
+  box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+-webkit-box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+-moz-box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+ border: 2px outset #c8bcbc;
+text-shadow: 2px 2px 8px rgba(78,78,78,0.53);
+}
+#header2 {
+  background-color: #D39D55;
+  width: 1100px;
+  height: 80px;
+  color: #fff;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+-webkit-box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+-moz-box-shadow: -4px 0px 17px -1px rgba(63,62,62,0.85);
+ border: 2px outset #c8bcbc;
+}
+
+#header2 table {
+  border-collapse: separate;
+  border-spacing: 80px 0; /* فاصله افقی بین td ها */
+  font-family: "Vazirmatn", sans-serif;
+}
+
+#header2 td {
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(78,78,78,0.53);
+  font-family: "Vazirmatn", sans-serif;
+  width: 70px;
+}
+#header2 td {
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(78,78,78,0.53);
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 1.3rem;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(145deg, #c28a48, #e0b56d); /* گرادیان طلایی ملایم */
+  color: #3E0703;
+  border-radius: 20px;
+  box-shadow: 
+    4px 4px 10px rgba(0,0,0,0.25),
+    inset 1px 1px 4px rgba(255,255,255,0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: #3E0703;
+}
+#header2 td:hover {
+  transform: translateY(-4px);
+  background: linear-gradient(145deg, #e0b56d, #c28a48);
+  box-shadow:
+    6px 6px 15px rgba(0,0,0,0.35),
+    inset -1px -1px 4px rgba(255,255,255,0.25);
+}
+
+#mainheader {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #D6CFB4;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100px;
+ border: 2px inset #c8bcbc;
+  box-shadow: 0px 7px 19px -1px rgba(63,61,61,0.83) inset;
+-webkit-box-shadow: 0px 7px 19px -1px rgba(63,61,61,0.83) inset;
+-moz-box-shadow: 0px 7px 19px -1px rgba(63,61,61,0.83) inset;
+font-family: "Vazirmatn", sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+#forosh0{
+  display: flex;
+  flex-direction: row;
+    flex: 1 1 calc(25% - 20px); /* هر آیتم حدود ۴ تا در ردیف */
+    flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+#frosh,#frosh2,#frosh3,#frosh4,#frosh5,#frosh6,#frosh7,#frosh8{
+  background-color:#D6CFB4;
+border-radius: 70px 70px 0px 70px;
+-webkit-border-radius: 70px 70px 0px 70px;
+-moz-border-radius: 70px 70px 0px 70px;
+border: 5px outset #6e6262;
+width: 300px;
+height: 300px;
+margin-top: 50px;
+align-items: center;
+text-align: center;
+}
+#forosh,img{
+width: 300px;
+height: 233px;
+overflow: hidden;
+object-fit: cover;
+-webkit-border-radius: 70px 70px 0px 70px;
+-moz-border-radius: 70px 70px 0px 70px;
+border: 3px outset #6e6262;
+}
+ #a {
+  display: inline-block;
+  background: linear-gradient(135deg, #D39D55, #e0b56d);
+  color: #3E0703;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 1.3rem;
+  padding: 8px 18px;
+  border-radius: 30px;
+  box-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 4px rgba(255, 255, 255, 0.3);
+  border: 2px outset #c8bcbc;
+  margin-top: 15px;
+  text-shadow: 1px 1px 5px rgba(78,78,78,0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+ #a:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #e0b56d, #D39D55);
+  box-shadow:
+    4px 4px 10px rgba(0, 0, 0, 0.3),
+    inset -1px -1px 3px rgba(255, 255, 255, 0.4);
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#footer {
+  background-image: url('../image/footer.jfif'); /* مسیر عکس */
+  background-size: cover;       /* عکس کل div رو بپوشونه */
+  background-repeat: no-repeat; /* تکرار نشه */
+  background-position: center;  /* وسط قرار بگیره */
+  padding: 20px;                /* فاصله داخلی برای متن */
+  color: white;  
+  box-shadow: 0px -10px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -10px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -10px 22px 0px rgba(0,0,0,0.75);               /* رنگ نوشته‌ها */
+}
+
+#footer,#td{
+ padding-right: 50px;
+  padding-left: 150px;
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: 500;
+
+}
+#img{
+  border-radius: 999px;
+  width: 70px;
+  height: 70px;
+}
+h2{
+  text-align: center;
+  padding-top: 3px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width: 980px) {
+    #header {
+        font-size: 2rem;
+        width: 250px;
+        padding: 10px 0;
+    }
+
+    #header2 {
+        height: 70px;
+        font-size: 1.3rem;
+    }
+
+    #header2 table {
+        border-spacing: 20px 0;
+    }
+
+    #header2 td {
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+ 
+        #footer,td{
+      
+      padding-left: 20;
+      padding-right: 20;
+      padding-bottom:0 ;
+    }
+    #footer{
+      margin-bottom: 0%;
+    }
+      #td {
+    padding-right: 30px;
+    padding-left: 60px;
+    font-size: 22px;
+  }
+
+  #footer h2 {
+    font-size: 24px;
+  }
+
+  #img {
+    width: 65px;
+    height: 65px;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*
+--- 760px Breakpoint (Tablet Portrait) ---
+*/
+@media (max-width: 760px) {
+  #mainheader {
+    height: auto;
+    padding: 10px;
+  }
+
+  #header {
+    font-size: 1.8rem;
+    width: 200px;
+    margin-right: 10px;
+  }
+
+  #header2 {
+    height: 60px;
+    margin-left: 10px;
+  }
+
+  #header2 table {
+    border-spacing: 10px 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  #header2 td {
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+
+  #td {
+    display: block;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #table {
+    display: block;
+    width: 100%;
+  }
+#footer{
+  margin-top: 40px;
+}
+  #tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer h2 {
+    font-size: 22px;
+  }
+
+  #img {
+    width: 60px;
+    height: 60px;
+  }
+  #forosh0{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex: 1 1 calc(25% - 20px); /* هر آیتم حدود ۴ تا در ردیف */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+#frosh,#frosh2,#frosh3,#frosh4,#frosh5,#frosh6,#frosh7,#frosh8{
+background-color:#D6CFB4;
+border-radius: 70px 70px 0px 70px;
+-webkit-border-radius: 70px 70px 0px 70px;
+-moz-border-radius: 70px 70px 0px 70px;
+border: 5px outset #6e6262;
+width: 150px;
+height: 170px;
+margin-top: 20px;
+align-items: center;
+text-align: center;
+margin-bottom: 10px;
+}
+#forosh,img{
+width: 150px;
+height: 110px;
+overflow: hidden;
+object-fit: cover;
+-webkit-border-radius: 70px 70px 0px 70px;
+-moz-border-radius: 70px 70px 0px 70px;
+border: 3px outset #6e6262;
+}
+ #a {
+  display: inline-block;
+  background: linear-gradient(135deg, #D39D55, #e0b56d);
+  color: #3E0703;
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 10px;
+  padding: 8px 18px;
+  border-radius: 30px;
+  box-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 4px rgba(255, 255, 255, 0.3);
+  border: 2px outset #c8bcbc;
+  margin-top: 15px;
+  text-shadow: 1px 1px 5px rgba(78,78,78,0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*
+--- 480px Breakpoint (Mobile) ---
+Stack the title and menu vertically.
+*/
+@media (max-width: 480px) {
+    #mainheader {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    /* Title/Logo takes full width, centered */
+    #header {
+        order: 1;
+        width: 100%;
+        margin: 0 0 15px 0;
+        font-size: 2rem;
+    }
+
+    /* Search bar comes second, full width */
+    .search {
+        order: 2;
+        margin-bottom: 15px;
+        position: relative; /* Ensure it stays in the flow */
+        top: auto;
+        right: auto;
+    }
+    
+    .search-box {
+        width: 100%;
+    }
+
+    #toggle-search:checked ~ input[type="text"] {
+        /* On mobile, search bar takes up most of the available width */
+        width: calc(100% - 60px);
+    }
+
+    /* Menu comes last, full width */
+    #header2 {
+        order: 3;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+
+    /* Menu items stacking */
+    #header2 tr {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+        padding: 5px;
+    }
+
+    #header2 td {
+        width: calc(50% - 15px); /* Two columns layout */
+        box-sizing: border-box;
+        margin: 0;
+        font-size: 0.9rem;
+        padding: 12px 0;
+        }
+         #footer {
+    padding: 15px;
+  }
+
+  #footer h2 {
+    font-size: 20px;
+  }
+
+  #td {
+    padding: 10px 0 ;
+    padding-left:50px;
+    font-size: 18px;
+  }
+
+  #img {
+    width: 55px;
+    height: 55px;
+  }
+        }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
