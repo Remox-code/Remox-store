@@ -1,0 +1,125 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  border-bottom: 2px solid var(--border-card);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: var(--transition-main);
+}
+
+.site-header:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.site-header__brand {
+  font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(
+    to right,
+    var(--accent-color),
+    var(--secondary-accent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slideInFromLeft 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  opacity: 0;
+}
+
+.site-nav__list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__link {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: var(--transition-main);
+  padding-bottom: 5px;
+}
+
+.site-nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: var(--accent-color);
+  transition: var(--transition-main);
+}
+
+.site-nav__link:hover {
+  color: var(--accent-color);
+}
+
+.site-nav__link:hover::after {
+  width: 100%;
+}
+
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 20px;
+  background: linear-gradient(to right, #0a0a0a, #1f1f1f);
+  border-bottom: 1px solid var(--border-card);
+}
+
+.category-nav__link {
+  padding: 10px 25px;
+  background: transparent;
+  color: var(--text-main);
+  border: 2px solid var(--accent-color);
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition-main);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.category-nav__link:hover {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px var(--accent-color);
+}
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .site-nav__list {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .site-nav__link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header__brand {
+    font-size: 1.6rem;
+  }
+  .category-nav {
+    gap: 10px;
+    padding: 20px 10px;
+  }
+  .category-nav__link {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+}

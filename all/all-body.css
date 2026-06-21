@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #1a1a1a;
+  --accent-color: #d4af37;
+  --secondary-accent: #8d0b41;
+  --bg-card: rgba(255, 255, 255, 0.08);
+  --text-main: #e0e0e0;
+  --text-highlight: var(--accent-color);
+  --white: #ffffff;
+  --shadow-card: 0 15px 30px rgba(0, 0, 0, 0.6);
+  --shadow-text: 1px 1px 8px rgba(212, 175, 55, 0.4);
+  --transition-main: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  --border-card: rgba(255, 255, 255, 0.15);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glow-hover {
+  0% {
+    box-shadow: 0 0 8px var(--accent-color);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--accent-color);
+  }
+  100% {
+    box-shadow: 0 0 8px var(--accent-color);
+  }
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-main);
+  background-color: var(--primary-color);
+  animation: fadeIn 1s ease-out forwards;
+  overflow-x: hidden;
+}
