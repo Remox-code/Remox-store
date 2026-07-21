@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <title>حساب کاربری | Remox Store</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="../../all-css/all-body.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../../all-css/all-header.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../../all-css/all-footer.css"
+    />
+    <link type="text/css" rel="stylesheet" href="profile.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="category-nav"></div>
+
+    <div class="auth-container">
+      <!-- Login & Register Form -->
+      <div class="auth-card" id="auth-section">
+        <div class="form-toggle">
+          <button class="active" onclick="toggleAuth('login')">ورود</button>
+          <button onclick="toggleAuth('register')">ثبت‌نام</button>
+        </div>
+
+        <!-- Login Form -->
+        <form id="login-form" class="auth-form">
+          <h2>خوش آمدید</h2>
+          <div class="input-group">
+            <input type="email" placeholder="ایمیل یا شماره موبایل" required />
+          </div>
+          <div class="input-group">
+            <input type="password" placeholder="رمز عبور" required />
+          </div>
+          <button type="submit" class="btn-gold">ورود به حساب</button>
+        </form>
+
+        <!-- Register Form -->
+        <form id="register-form" class="auth-form hidden">
+          <h2>ایجاد حساب کاربری</h2>
+          <div class="input-group">
+            <input type="text" placeholder="نام" required />
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="نام خانوادگی" required />
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="شماره موبایل" required />
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="ایمیل" required />
+          </div>
+          <div class="input-group">
+            <input type="password" placeholder="رمز عبور" required />
+          </div>
+          <button type="submit" class="btn-gold">ثبت‌نام</button>
+        </form>
+      </div>
+
+      <!-- User Dashboard (Profile) -->
+      <div class="profile-card hidden" id="profile-section">
+        <div class="profile-header">
+          <div class="profile-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="profile-info">
+            <h3 id="user-name">نام کاربر</h3>
+            <p id="user-email">user@example.com</p>
+          </div>
+        </div>
+        <div class="profile-details">
+          <div class="detail-item">
+            <span>شماره موبایل:</span>
+            <span class="value" id="user-phone">0912XXXXXXX</span>
+          </div>
+          <div class="detail-item">
+            <span>تاریخ عضویت:</span>
+            <span class="value">۱۴۰۵/۰۳/۲۴</span>
+          </div>
+          <div class="detail-item">
+            <span>وضعیت حساب:</span>
+            <span class="value gold">VIP</span>
+          </div>
+        </div>
+        <button class="btn-outline" onclick="logout()">خروج از حساب</button>
+      </div>
+    </div>
+    <div id="footer"></div>
+
+    <script>
+      window.BASE_PATH = "../../";
+    </script>
+    <script src="../../all-js/loader.js"></script>
+    <script src="profile.js"></script>
+  </body>
+</html>

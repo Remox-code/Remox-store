@@ -1,0 +1,146 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.auth-card,
+.profile-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.form-toggle {
+  display: flex;
+  background: #2a2a2a;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.form-toggle button {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #888;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.form-toggle button.active {
+  background: #d4af37;
+  color: #000;
+  font-weight: bold;
+}
+
+.auth-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #d4af37;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #d4af37;
+}
+
+.btn-gold {
+  width: 100%;
+  padding: 12px;
+  background: #d4af37;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background: #b8962d;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Profile Styles */
+.profile-header {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  background: #2a2a2a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 40px;
+  color: #d4af37;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 22px;
+}
+.profile-info p {
+  color: #888;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.value {
+  color: #aaa;
+}
+.value.gold {
+  color: #d4af37;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}

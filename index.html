@@ -8,40 +8,15 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="all/all-body.css" />
-    <link type="text/css" rel="stylesheet" href="all/all-header.css" />
-    <link type="text/css" rel="stylesheet" href="all/all-footer.css" />
+    <link type="text/css" rel="stylesheet" href="home/home.css" />
+    <link type="text/css" rel="stylesheet" href="all-css/all-body.css" />
+    <link type="text/css" rel="stylesheet" href="all-css/all-footer.css" />
+    <link type="text/css" rel="stylesheet" href="all-css/all-header.css" />
     <meta charset="UTF-8" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__brand">Remox-4</div>
-
-      <nav class="site-nav" aria-label="ناوبری اصلی">
-        <ul class="site-nav__list">
-          <li class="site-nav__item">
-            <a class="site-nav__link" href="pages/about.html">درباره ما</a>
-          </li>
-          <li class="site-nav__item">
-            <a class="site-nav__link" href="pages/get-in-touch.html"
-              >تماس با ما</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <nav class="category-nav" aria-label="دسته‌بندی محصولات">
-      <a class="category-nav__link" href="pages/man-watch.html">ساعت مردانه</a>
-      <a class="category-nav__link" href="pages/women-watch.html">ساعت زنانه</a>
-      <a class="category-nav__link" href="pages/necklace.html">گردنبند</a>
-      <a class="category-nav__link" href="pages/bracelet.html">دستبند</a>
-      <a class="category-nav__link" href="pages/rings.html">انگشتر</a>
-      <a class="category-nav__link" href="pages/lighter.html">فندک</a>
-      <a class="category-nav__link" href="pages/set-watchs.html">ساعت ست</a>
-      <a class="category-nav__link" href="pages/box.html">باکس</a>
-    </nav>
+    <div id="header"></div>
+    <div id="category-nav"></div>
 
     <main>
       <!-- ۱. هیرو -->
@@ -150,7 +125,7 @@
           <div class="products-grid">
             <!-- کارت محصول 1 -->
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/a6.jpg" alt="Product 1" />
+              <img src="pages/image2/products/Ring-1.jpg" alt="Product 1" />
               <div class="prod-info">
                 <h3>نام محصول اول</h3>
                 <p class="price">$199.99</p>
@@ -161,7 +136,7 @@
             </div>
             <!-- کارت محصول 2 -->
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/b6.jpg" alt="Product 2" />
+              <img src="pages/image2/products/box-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -171,7 +146,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/d4.jpg" alt="Product 2" />
+              <img src="pages/image2/products/Bracelet-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -181,7 +156,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/g6.jpg" alt="Product 2" />
+              <img src="pages/image2/products/Necklace-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -191,7 +166,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/set7.jpg" alt="Product 2" />
+              <img src="pages/image2/products/lighter-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -201,7 +176,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/wo2.jpg" alt="Product 2" />
+              <img src="pages/image2/products/manW-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -211,7 +186,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/l6.jpg" alt="Product 2" />
+              <img src="pages/image2/products/womanW-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -221,7 +196,7 @@
               </div>
             </div>
             <div class="prod-card reveal stagger-item">
-              <img src="pages/image2/products/man4.jpg" alt="Product 2" />
+              <img src="pages/image2/products/setW-1.jpg" alt="Product 2" />
               <div class="prod-info">
                 <h3>نام محصول دوم</h3>
                 <p class="price">$249.00</p>
@@ -297,80 +272,13 @@
       </section>
     </main>
 
-    <footer class="lux-footer">
-      <div class="lux-footer__bg"></div>
+    <div id="footer"></div>
 
-      <div class="lux-footer__content">
-        <div class="lux-footer__grid">
-          <div class="lux-footer__brand">
-            <a href="#" class="lux-footer__logo">Remox<span>Store</span></a>
-            <p class="lux-footer__desc">
-              مجموعه ‌ای از اکسسوری‌ های خاص، شیک و باکیفیت برای درخشش استایل
-              شما
-            </p>
+    <script>
+      window.BASE_PATH = "";
+    </script>
+    <script src="all-js/loader.js"></script>
 
-            <div class="lux-footer__social">
-              <a href="https://instagram.com/Remox.code"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="https://t.me/Remox-4"
-                ><i class="fab fa-telegram-plane"></i
-              ></a>
-              <a href="#"><i class="fab fa-whatsapp"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            </div>
-          </div>
-
-          <div class="lux-footer__links">
-            <h3>لینک‌های سریع</h3>
-            <ul>
-              <li><a href="#">محصولات</a></li>
-              <li><a href="pages/about.html">درباره ما</a></li>
-              <li><a href="pages/get-in-touch.html">تماس با ما</a></li>
-              <li><a href="#">سوالات متداول</a></li>
-            </ul>
-          </div>
-
-          <div class="lux-footer__links">
-            <h3>خدمات</h3>
-            <ul>
-              <li><a href="#">ارسال سریع</a></li>
-              <li><a href="#">ضمانت اصالت</a></li>
-              <li><a href="#">تعویض کالا</a></li>
-              <li><a href="#">پیگیری سفارش</a></li>
-              <li><a href="#">پشتیبانی ۲۴/۷</a></li>
-            </ul>
-          </div>
-
-          <div class="lux-footer__newsletter">
-            <h3>عضویت در خبرنامه</h3>
-            <p>
-              برای دریافت تخفیف‌ها و کالکشن‌های جدید، ایمیل خود را وارد کنید.
-            </p>
-
-            <form class="lux-footer__form">
-              <input type="email" placeholder="ایمیل شما" />
-              <button type="submit">عضویت</button>
-            </form>
-
-            <div class="lux-footer__contact">
-              <p><i class="fas fa-phone-alt"></i>+98 9146583542</p>
-              <p><i class="fas fa-envelope"></i> remoxafficial.4@gmail.com</p>
-              <p><i class="fas fa-map-marker-alt"></i> تهران، خیابان ولیعصر</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="lux-footer__bottom">
-          <p>© 2026 GOLD ACCESSORY. All Rights Reserved.</p>
-          <div class="lux-footer__meta">
-            <a href="#">حریم خصوصی</a>
-            <a href="#">قوانین و مقررات</a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+    <script src="home/home.js"></script>
   </body>
 </html>

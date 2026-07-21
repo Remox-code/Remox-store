@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 2,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 3,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 4,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 5,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 6,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 7,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+  {
+    "id": 8,
+    "category": "women-watch",
+    "title": "ساعت زنانه رولکس",
+    "description": "مدل لوکس",
+    "price": 520000,
+    "image": "../image2/products/womanW-1.jpg"
+  },
+
+  {
+    "id": 9,
+    "category": "men-watch",
+    "title": "ساعت مردانه جی‌شاک",
+    "description": "ضد آب",
+    "price": "790,000",
+    "image": "../image2/products/manW-1.jpg"
+  },
+
+  {
+    "id": 10,
+    "category": "bracelet",
+    "title": "دستبند مردانه",
+    "description": "استیل ضد زنگ",
+    "price": "280,000",
+    "image": "../image2/products/Bracelet-1.jpg"
+  },
+  {
+    "id": 11,
+    "category": "set-watch",
+    "title": "ساعت ست",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/setW-1.jpg"
+  },
+  {
+    "id": 12,
+    "category": "necklace",
+    "title": "گردنبند استیل",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/Necklace-1.jpg"
+  },
+
+  {
+    "id": 13,
+    "category": "rings",
+    "title": "انگشتر استیل",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/ring-1.jpg"
+  },
+
+  {
+    "id": 14,
+    "category": "lighter",
+    "title": "فندک استیل",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/lighter-1.jpg"
+  }
+]
