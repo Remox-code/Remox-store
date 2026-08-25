@@ -5,7 +5,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "title": "ساعت زنانه رولکس",
     "description": "مدل لوکس",
     "price": 520000,
-    "image": "../image2/products/womanW-1.jpg"
+    "image": "../image2/products/womanW/womanW-1.webp"
   },
 
   {
@@ -70,7 +70,7 @@
     "title": "ساعت مردانه جی‌شاک",
     "description": "ضد آب",
     "price": "790,000",
-    "image": "../image2/products/manW-1.jpg"
+    "image": "../image2/products/manW/manW-1.webp"
   },
 
   {
@@ -79,7 +79,7 @@
     "title": "دستبند مردانه",
     "description": "استیل ضد زنگ",
     "price": "280,000",
-    "image": "../image2/products/Bracelet-1.jpg"
+    "image": "../image2/products/bracelet/Bracelet-1.webp"
   },
   {
     "id": 11,
@@ -87,7 +87,7 @@
     "title": "ساعت ست",
     "description": "رنگ ثابت",
     "price": "350,000",
-    "image": "../image2/products/setW-1.jpg"
+    "image": "../image2/products/setW/setW-1.webp"
   },
   {
     "id": 12,
@@ -95,7 +95,7 @@
     "title": "گردنبند استیل",
     "description": "رنگ ثابت",
     "price": "350,000",
-    "image": "../image2/products/Necklace-1.jpg"
+    "image": "../image2/products/Necklace/Necklace-1.webp"
   },
 
   {
@@ -104,7 +104,7 @@
     "title": "انگشتر استیل",
     "description": "رنگ ثابت",
     "price": "350,000",
-    "image": "../image2/products/ring-1.jpg"
+    "image": "../image2/products/rings/ring-1.webp"
   },
 
   {
@@ -113,6 +113,30 @@
     "title": "فندک استیل",
     "description": "رنگ ثابت",
     "price": "350,000",
-    "image": "../image2/products/lighter-1.jpg"
+    "image": "../image2/products/lighter/lighter-1.webp"
+  },
+  {
+    "id": 15,
+    "category": "scarf",
+    "title": "اسکارف ",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/scarfs/scarf-1.webp"
+  },
+  {
+    "id": 16,
+    "category": "belt",
+    "title": "کمربند چرم",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/belt/belt-1.webp"
+  },
+  {
+    "id": 17,
+    "category": "handkerchief",
+    "title": "دستمال سر اعلا",
+    "description": "رنگ ثابت",
+    "price": "350,000",
+    "image": "../image2/products/handkerchief/handkerchief-1.webp"
   }
 ]

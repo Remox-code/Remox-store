@@ -1,4 +1,8 @@
-// جلوگیری از submit فرم فوتر (اگر وجود داشت)
+import { renderStoreHome } from "../render/renderHome.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderStoreHome();
+});
 document
   .querySelector(".lux-footer__form")
   ?.addEventListener("submit", function (e) {

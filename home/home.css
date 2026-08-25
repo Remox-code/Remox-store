@@ -159,7 +159,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../image/hero.avif") center/cover no-repeat;
+  background: url("../image/hero.webp") center/cover no-repeat;
   filter: brightness(0.4) contrast(1.1);
   z-index: -1;
 }
@@ -282,7 +282,6 @@ section {
 }
 #about .about-image:hover {
   transform: translateY(-10px) scale(1.03);
-  box-shadow: 0 25px 50px rgba(212, 175, 55, 0.3);
 }
 #about .about-text {
   flex: 1;
@@ -459,7 +458,7 @@ section {
   align-items: center;
   justify-content: center;
   min-height: 400px;
-  background-image: url("../image/2hero.avif");
+  background-image: url("../image/2hero.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -528,9 +527,7 @@ section {
   padding: 3px;
   transition: transform 0.3s;
 }
-.customer-info:hover img {
-  transform: scale(1.1);
-}
+
 .customer-info h4 {
   color: #fff;
   font-size: 1.1em;
